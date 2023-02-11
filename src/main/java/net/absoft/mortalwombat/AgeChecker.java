@@ -1,8 +1,14 @@
 package net.absoft.mortalwombat;
 
 public class AgeChecker {
-    public boolean isUserAdult( int age)
+    private int minAge;
+
+    public void setMinAge(int minAge) {
+        this.minAge = minAge;
+    }
+
+    public boolean isUserAdult(int age)
     {
-        return age>=18;
+        return age>=minAge;
     }
 }

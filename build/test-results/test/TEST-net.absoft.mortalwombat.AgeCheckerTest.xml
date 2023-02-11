@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.absoft.mortalwombat.AgeCheckerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-01T19:30:43" hostname="DESKTOP-0P1C5A3" time="0.0">
+<testsuite name="net.absoft.mortalwombat.AgeCheckerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-09T21:19:10" hostname="DESKTOP-0P1C5A3" time="0.0">
   <properties/>
   <testcase name="testAgeUserAblePlayGame" classname="net.absoft.mortalwombat.AgeCheckerTest" time="0.0"/>
   <testcase name="testAgeUserCantPlayGame" classname="net.absoft.mortalwombat.AgeCheckerTest" time="0.0"/>
