@@ -27,12 +27,14 @@ public class DiscriminantExecutorTest {
 
     }
 @Test
-    public void ReturnRootsIfDiscriminantPositive() { //Discriminant here is ==0
+    public void ReturnRootsIfDiscriminantPositive() { //Discriminant here is >0
 
         Calculator calculator = new Calculator();
         Solution solution = calculator.findRootsQuadraticEquation(1, 50, 4);
-        Assert.assertNotNull(solution);
-        Assert.assertNotEquals(solution.getX1(), solution.getX2());
+        Assert.assertNotNull(solution.getX1());
+        Assert.assertNotNull(solution.getX2());
+
+    Assert.assertNotEquals(solution.getX1(), solution.getX2());
     }
 }
 
